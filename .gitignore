@@ -1,0 +1,23 @@
+# Dependências do Composer
+/vendor/
+
+# Configurações e segredos locais
+.env
+.env.*
+!.env.example
+
+# Logs e arquivos temporários
+*.log
+/tmp/
+/cache/
+
+# Configurações de IDE e sistema operacional
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por ferramentas de cobertura
+.phpunit.cache/
+/coverage/
